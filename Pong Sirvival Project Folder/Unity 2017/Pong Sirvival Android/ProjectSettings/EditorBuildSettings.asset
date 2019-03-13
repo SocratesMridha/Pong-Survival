@@ -6,11 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: c72a47f02c9c1a941b19c6393969ae18
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 1dff7c47e7c370742b52685ee981cadf
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: ca38cb92162d37047829758b5253c68d
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 506218d003dbdbf40b1a8df7cd25ecd7
+  - enabled: 1
+    path: Assets/Scenes/Skins.unity
+    guid: ebc75032a900b3746a24d944969ead3c
+  - enabled: 1
+    path: Assets/Scenes/Trophies.unity
+    guid: 7664ca2bbc8b17f49a60b4523c0b049e
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 51536ff44671b3949922b764694070f4
