@@ -24,4 +24,18 @@ public class SceneLoader : MonoBehaviour {
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void LoadAdditiveSceneUI (string sceneName)
+    {
+
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+        
+    }
+    public void UnloadAdditiveSceneUI(string sceneName)
+    {
+
+        SceneManager.UnloadScene(sceneName);
+
+    }
+
 }
