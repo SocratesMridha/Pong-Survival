@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Falling Object
+  - Explosive
+  - Barrier
+  - Platform
+  - Pickup
+  - Ball
   layers:
   - Default
   - TransparentFX

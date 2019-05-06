@@ -5,6 +5,6 @@ PhysicsMaterial2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PM_Basic_Ball
+  m_Name: Ball_Golf_Ball
   friction: 0.2
   bounciness: 1
