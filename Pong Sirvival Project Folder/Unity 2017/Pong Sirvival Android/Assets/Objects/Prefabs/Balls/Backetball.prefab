@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4788868974094128}
   - component: {fileID: 50753377875134010}
   - component: {fileID: 58490295470093504}
+  - component: {fileID: 114305933262021560}
   m_Layer: 0
   m_Name: Backetball
   m_TagString: Falling Object
@@ -106,6 +107,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!114 &114305933262021560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340098694173408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5635dc6759311540b75708bcba7a339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 50
 --- !u!212 &212335617327801104
 SpriteRenderer:
   m_ObjectHideFlags: 1

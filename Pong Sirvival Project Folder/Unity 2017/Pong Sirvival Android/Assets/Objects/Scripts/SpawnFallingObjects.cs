@@ -67,13 +67,13 @@ public class SpawnFallingObjects : MonoBehaviour {
     {
         int randTargert = RandomNumber(spawnPoint.Length);
         GameObject clone = Instantiate(fallingObject[RandomNumber(fallingObject.Length)], spawnPoint[randTargert].position, spawnPoint[randTargert].rotation);
-        Destroy(clone,10); // temp until i creat object scripts
+        Destroy(clone,20); // temp until i creat object scripts
     }
     void SpawnExplosive()
     {
         int randTargert = RandomNumber(spawnPoint.Length);
         GameObject cloneExplosive = Instantiate(explosives[RandomNumber(explosives.Length)], spawnPoint[randTargert].position, spawnPoint[randTargert].rotation);
-        Destroy(cloneExplosive, 10);// temp until i creat object scripts
+        Destroy(cloneExplosive, 20);// temp until i creat object scripts
     }
     void SpwanBombOnPlayer()
     {

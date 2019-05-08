@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 4953320182848880}
   - component: {fileID: 50262874401535048}
   - component: {fileID: 58542656901106512}
+  - component: {fileID: 114138697607309738}
   m_Layer: 0
   m_Name: Golf_Ball
   m_TagString: Falling Object
@@ -106,6 +107,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
+--- !u!114 &114138697607309738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578775752944876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5635dc6759311540b75708bcba7a339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 5
 --- !u!212 &212164567814666266
 SpriteRenderer:
   m_ObjectHideFlags: 1

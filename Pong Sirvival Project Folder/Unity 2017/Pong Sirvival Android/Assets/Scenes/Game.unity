@@ -163,11 +163,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163108129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.283592, y: -2.3644457, z: 17.132706}
+  m_LocalPosition: {x: 0, y: 12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &250860340
 GameObject:
@@ -434,7 +434,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4016904671849128, guid: 7edc8ab7d113f4b4384a8d475a923ce6, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7edc8ab7d113f4b4384a8d475a923ce6, type: 2}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 872267253}
   m_Layer: 0
   m_Name: Death_Box
-  m_TagString: Untagged
+  m_TagString: DeathBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -660,34 +660,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224370193059727160, guid: 3a9968a8d08f5f24d961f2b83835edf8,
     type: 2}
   m_PrefabInternal: {fileID: 1446610541}
---- !u!1 &1450524578
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1450524579}
-  m_Layer: 0
-  m_Name: Block_Target_Transforms
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1450524579
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1450524578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.362864, y: -1.550652, z: 0.28267956}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1604202996
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +872,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4323115351914904, guid: b1c066233e65f5845876213bd36412b3, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1c066233e65f5845876213bd36412b3, type: 2}
@@ -996,7 +968,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4222120291042802, guid: 7b117d37283e1a047b4b2e553677bed7, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b117d37283e1a047b4b2e553677bed7, type: 2}
